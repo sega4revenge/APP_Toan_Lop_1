@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mypc.app_toan_lop_1.Cac_Bai_Toan_Giai_NC"
+    android:background="@drawable/bg1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtbaitoan"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="30dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtkq"
+            android:layout_alignBaseline="@+id/btnok"
+            android:layout_alignBottom="@+id/btnok"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:inputType="number"
+            android:hint="Đáp Án"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/btnok"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="177dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="-500dp"
+        android:background="@drawable/wow"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageView2"
+        android:layout_marginLeft="-500dp"
+        android:background="@drawable/error"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

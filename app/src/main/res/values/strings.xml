@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Baby Math</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_phep_cong">Phep_cong</string>
+    <string name="title_activity_phep_tru">phep_tru</string>
+    <string name="title_activity_mang__hinh__cho">Mang_Hinh_Cho</string>
+    <string name="title_activity_phep_nhan">Phep_nhan</string>
+    <string name="title_activity_phep_chia">Phep_chia</string>
+    <string name="title_activity_phep__cong__nang__cao">Phep_Cong_Nang_Cao</string>
+    <string name="title_activity_phep__cong__pv__mot__tram">Phep_Cong_PV_Mot_Tram</string>
+    <string name="title_activity_phep__tru__ba__so">Phep_Tru_Ba_So</string>
+    <string name="title_activity_phep__tru__pv_100">Phep_Tru_PV_100</string>
+    <string name="title_activity_phep__toan__so__sanh">Phep_Toan_So_Sanh</string>
+    <string name="title_activity_phep_ss_nangcao">Phep_ss_nangcao</string>
+    <string name="title_activity_phep_toan__th">Phep_toan_TH</string>
+    <string name="title_activity_my_database_helper">MyDatabaseHelper</string>
+    <string name="title_activity_cac__bai__toan__giai">Cac_Bai_Toan_Giai</string>
+    <string name="title_activity_cac__bai__toan__giai__nc">Cac_Bai_Toan_Giai_NC</string>
+</resources>
